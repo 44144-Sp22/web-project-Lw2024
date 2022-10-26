@@ -1,0 +1,98 @@
+/*
+Author: Leo Wills
+Date:9/21/2022
+File Name: Styles.css
+*/
+
+/*CSS Reset*/
+body, header, nav, main, footer, h1, div, img {
+      margin: 0;
+      padding: 0;
+      border: 0;
+}
+
+/*Style rules for body and images*/
+body{
+    background-color: #000;
+}
+
+img {
+      max-width: 100%;
+      display: block;
+}
+
+/*Style rule for header*/
+header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+
+
+/*Style rules for navigation area*/
+nav {
+      width: 100%;
+}
+
+nav ul {
+    display: inline-block;
+        list-style-type: none;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+}
+
+nav ul a{
+
+      font-size: 1.5em;
+      font-family: Verdana, Arial, sans-serif;
+      font-weight: bold;
+}
+
+nav ul {
+
+    color: #fff;
+    text-align: center;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+/*Style rules for main content*/
+main {
+      clear: left;
+      background-color: #fff;
+      padding: 2%;
+      font-size: 1.25em;
+}
+.row {
+  display: flex;
+}
+.column{
+  flex: 50%;
+}
+
+.action {
+    font-size: 1.35em;
+    color: #fff;
+    font-weight: bold;
+}
+.center{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 30%;
+}
+
+footer p {
+    font-size: 0.75em;
+    text-align: center;
+    color: #fff;
+    padding: 0 1em;
+}
+
+footer p a {
+    color: #fff;
+    text-decoration: none;
+}
